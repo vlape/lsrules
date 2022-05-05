@@ -31,13 +31,13 @@
       "action" : "allow",
       "ports"  : "443",
       "protocol" : "tcp",
-      "process"  : "\\/Applications\\/1Password.app\\/Contents\\/MacOS\\/1Password",
+      "process"  : "\/Applications\/1Password.app\/Contents\/MacOS\/1Password",
       "remote-domains" : ["1password.com", "1passwordusercontent.com", "agilebits.com"]
     },
     {
       "notes"  : "Firefox",
       "action" : "allow",
-      "process"  : "\\/Applications\\/Firefox.app\\/Contents\\/MacOS\\/firefox",
+      "process"  : "\/Applications\/Firefox.app\/Contents\/MacOS\/firefox",
       "remote" : "any"
     }
   ]
