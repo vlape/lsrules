@@ -1,180 +1,240 @@
 {
-  "description" : "Little Snitch rules",
-  "name" : "LS Rules",
-  "rules" : [
+  "description": "Little Snitch rules",
+  "name": "LS Rules",
+  "rules": [
     {
-      "notes"  : "Default Deny System",
-      "action" : "deny",
-      "remote" : "any"
+      "notes": "Default Deny System",
+      "action": "deny",
+      "remote": "any"
     },
     {
-      "notes"  : "Default Deny",
-      "action" : "deny",
-      "remote" : "any"
+      "notes": "Default Deny",
+      "action": "deny",
+      "remote": "any"
     },
     {
-      "notes"  : "Block URLs",
-      "action" : "deny",
-      "remote-domains" : ["appcenter.ms", "sentry.io"]
+      "notes": "Block URLs",
+      "action": "deny",
+      "remote-domains": [
+        "appcenter.ms",
+        "sentry.io"
+      ]
     },
     {
-      "notes"   : "Github",
-      "action"  : "allow",
-      "process" : "any",
-      "remote-domains" : ["github.com", "githubassets.com", "githubusercontent.com"]
+      "notes": "Github",
+      "action": "allow",
+      "process": "any",
+      "remote-domains": [
+        "github.com",
+        "githubassets.com",
+        "githubusercontent.com"
+      ]
     },
     {
-      "notes"  : "1Password",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/1Password.app/Contents/MacOS/1Password",
-      "remote-domains" : ["1password.com", "1passwordusercontent.com", "agilebits.com"]
+      "notes": "1Password",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/1Password.app/Contents/MacOS/1Password",
+      "remote-domains": [
+        "1password.com",
+        "1passwordusercontent.com",
+        "agilebits.com"
+      ]
     },
     {
-      "notes"  : "Firefox",
-      "action" : "allow",
-      "process"  : "/Applications/Firefox.app/Contents/MacOS/firefox",
-      "remote" : "any"
+      "notes": "Firefox",
+      "action": "allow",
+      "process": "/Applications/Firefox.app/Contents/MacOS/firefox",
+      "remote": "any"
     },
     {
-      "notes"  : "SetApp",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Setapp.app/Contents/MacOS/Setapp",
-      "remote-domains" : ["setapp.com"]
+      "notes": "SetApp",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Setapp.app/Contents/MacOS/Setapp",
+      "remote-domains": [
+        "setapp.com"
+      ]
     },
     {
-      "notes"  : "SetApp Agent",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/Setapp.app/Contents/MacOS/SetappAgent",
-      "remote-domains" : ["setapp.com","devmate.com","macpaw.com","s3-us-west-2.amazonaws.com"]
+      "notes": "SetApp Agent",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/Setapp.app/Contents/MacOS/SetappAgent",
+      "remote-domains": [
+        "setapp.com",
+        "devmate.com",
+        "macpaw.com",
+        "s3-us-west-2.amazonaws.com"
+      ]
     },
     {
-      "notes"  : "SetApp Launcher",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/SetappLauncher.app/Contents/MacOS/SetappLauncher",
-      "remote-domains" : ["setapp.com"]
+      "notes": "SetApp Launcher",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/SetappLauncher.app/Contents/MacOS/SetappLauncher",
+      "remote-domains": [
+        "setapp.com"
+      ]
     },
     {
-      "notes"  : "CleanMyMac X",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/MacOS/CleanMyMac",
-      "remote-domains" : ["cleanmymac.com","iterm2.com","keka.io","protonvpn.com","handbrake.fr"]
+      "notes": "CleanMyMac X",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/MacOS/CleanMyMac",
+      "remote-domains": [
+        "cleanmymac.com",
+        "iterm2.com",
+        "keka.io",
+        "protonvpn.com",
+        "handbrake.fr"
+      ]
     },
     {
-      "notes"  : "CleanMyMac X Updater",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Library/Application Support/CleanMyMac Setapp/CleanMyMac X Updater.app/Contents/MacOS/CleanMyMac X Updater",
-      "remote-domains" : ["cleanmymac.com"]
+      "notes": "CleanMyMac X Updater",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Library/Application Support/CleanMyMac Setapp/CleanMyMac X Updater.app/Contents/MacOS/CleanMyMac X Updater",
+      "remote-domains": [
+        "cleanmymac.com"
+      ]
     },
     {
-      "notes"  : "CleanMyMac X Menu",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/MacOS/CleanMyMac Menu",
-      "remote-domains" : ["setapp.com"]
+      "notes": "CleanMyMac X Menu",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/MacOS/CleanMyMac Menu",
+      "remote-domains": [
+        "setapp.com"
+      ]
     },
     {
-      "notes"  : "CleanMyMac X HealthMonitor",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor",
-      "remote-domains" : ["cleanmymac.com"]
+      "notes": "CleanMyMac X HealthMonitor",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor",
+      "remote-domains": [
+        "cleanmymac.com"
+      ]
     },
     {
-      "notes"  : "Stream Deck",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
-      "remote-domains" : ["elgato.com"]
+      "notes": "Stream Deck",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
+      "remote-domains": [
+        "elgato.com"
+      ]
     },
     {
-      "notes"  : "Stream Deck QtWebEngine",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
-      "via"      : "/Applications/Stream Deck.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app/Contents/MacOS/QtWebEngineProcess",
-      "remote-domains" : ["elgato.com","audioblocks.com"]
+      "notes": "Stream Deck QtWebEngine",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
+      "via": "/Applications/Stream Deck.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app/Contents/MacOS/QtWebEngineProcess",
+      "remote-domains": [
+        "elgato.com",
+        "audioblocks.com"
+      ]
     },
     {
-      "notes"  : "Alfred",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
-      "remote-domains" : ["alfredapp.com"]
+      "notes": "Alfred",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
+      "remote-domains": [
+        "alfredapp.com"
+      ]
     },
     {
-      "notes"  : "Alfred networkQuality",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
-      "via"      : "/usr/bin/networkQuality",
-      "remote-domains" : ["applimg.com","cdn-apple.com"]
+      "notes": "Alfred networkQuality",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
+      "via": "/usr/bin/networkQuality",
+      "remote-domains": [
+        "applimg.com",
+        "cdn-apple.com"
+      ]
     },
     {
-      "notes"  : "Alfred Raindrop IO Workflow",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
-      "via"      : "/Users/vlape/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.47662ED6-385B-4AD1-97A5-E5EEE8827A33/raindrop_alfred",
-      "remote-domains" : ["raindrop.io"]
+      "notes": "Alfred Raindrop IO Workflow",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
+      "via": "/Users/vlape/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.47662ED6-385B-4AD1-97A5-E5EEE8827A33/raindrop_alfred",
+      "remote-domains": [
+        "raindrop.io"
+      ]
     },
     {
-      "notes"  : "InteliJ",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
-      "remote-domains" : ["jetbrains.com","schemastore.com","dl.google.com"]
+      "notes": "InteliJ",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
+      "remote-domains": [
+        "jetbrains.com",
+        "schemastore.com",
+        "dl.google.com"
+      ]
     },
     {
-      "notes"  : "Microsoft Update Assistant",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app/Contents/MacOS/Microsoft Update Assistant",
-      "remote-domains" : ["microsoft.com","azurewebsites.net","live.com"]
+      "notes": "Microsoft Update Assistant",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app/Contents/MacOS/Microsoft Update Assistant",
+      "remote-domains": [
+        "microsoft.com",
+        "azurewebsites.net",
+        "live.com"
+      ]
     },
     {
-      "notes"  : "Microsoft Updater",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
-      "remote-domains" : ["microsoft.com","azurewebsites.net","live.com"]
+      "notes": "Microsoft Updater",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
+      "remote-domains": [
+        "microsoft.com",
+        "azurewebsites.net",
+        "live.com"
+      ]
     },
     {
-      "notes"  : "iStatsMenusAgent",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Library/Application Support/iStat Menus 6/iStatMenusAgent.app/Contents/MacOS/iStatMenusAgent",
-      "remote-domains" : ["istatmenus.app"]
+      "notes": "iStatsMenusAgent",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Library/Application Support/iStat Menus 6/iStatMenusAgent.app/Contents/MacOS/iStatMenusAgent",
+      "remote-domains": [
+        "istatmenus.app"
+      ]
     },
     {
-      "notes"  : "Dash",
-      "action" : "allow",
-      "ports"  : "443",
-      "protocol" : "tcp",
-      "process"  : "/Users/vlape/Applications/Setapp/Dash.app/Contents/MacOS/Dash",
-      "remote-domains" : ["kapeli.com"]
+      "notes": "Dash",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Applications/Setapp/Dash.app/Contents/MacOS/Dash",
+      "remote-domains": [
+        "kapeli.com"
+      ]
     }
   ]
 }
