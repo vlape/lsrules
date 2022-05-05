@@ -236,6 +236,14 @@
       "action": "allow",
       "process": "/Users/vlape/Applications/Setapp/Downie.app/Contents/MacOS/Downie",
       "remote": "any"
+    },
+    {
+      "notes": "News Explorer",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Users/vlape/Applications/Setapp/News Explorer.app/Contents/MacOS/News Explorer Setapp",
+      "remote": "any"
     }
   ]
 }
