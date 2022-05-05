@@ -1,0 +1,37 @@
+{
+  "description" : "My personal Little Snitch rules",
+  "name" : "My Rules",
+  "rules" : [
+    {
+      "notes"  : "Default Deny System",
+      "action" : "deny",
+      "priority" : "high",
+      "remote" : "any"
+    },
+    {
+      "notes"  : "Default Deny",
+      "action" : "deny",
+      "priority" : "high",
+      "remote" : "any"
+    },
+    {
+      "notes"  : "Block URLs",
+      "action" : "deny",
+      "priority" : "high",
+      "remote-domains" : ["appcenter.ms", "sentry.io"]
+    },
+    {
+      "notes"  : "1Password",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "remote-domains" : ["1password.com", "1passwordusercontent.com", "agilebits.com"]
+    },
+    {
+      "notes"   : "Github",
+      "action"  : "allow",
+      "process" : "any",
+      "remote-domains" : ["github.com", "githubassets.com", "githubusercontent.com"]
+    }
+  ]
+}
