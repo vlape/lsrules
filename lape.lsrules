@@ -110,6 +110,14 @@
       "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
       "via"      : "/usr/bin/networkQuality",
       "remote-domains" : ["applimg.com","cdn-apple.com"]
+    },
+    {
+      "notes"  : "InteliJ",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea ",
+      "remote-domains" : ["jetbrains.com","schemastore.com","dl.google.com"]
     }
   ]
 }
