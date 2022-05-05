@@ -21,6 +21,12 @@
       "remote-domains" : ["appcenter.ms", "sentry.io"]
     },
     {
+      "notes"   : "Github",
+      "action"  : "allow",
+      "process" : "any",
+      "remote-domains" : ["github.com", "githubassets.com", "githubusercontent.com"]
+    },
+    {
       "notes"  : "1Password",
       "action" : "allow",
       "ports"  : "443",
@@ -29,10 +35,10 @@
       "remote-domains" : ["1password.com", "1passwordusercontent.com", "agilebits.com"]
     },
     {
-      "notes"   : "Github",
-      "action"  : "allow",
-      "process" : "any",
-      "remote-domains" : ["github.com", "githubassets.com", "githubusercontent.com"]
+      "notes"  : "Firefox",
+      "action" : "allow",
+      "process"  : "/Applications/Firefox.app/Contents/MacOS/firefox",
+      "remote-domains" : "any"
     }
   ]
 }
