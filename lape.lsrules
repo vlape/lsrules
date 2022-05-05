@@ -92,7 +92,7 @@
       "protocol" : "tcp",
       "process"  : "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
       "via"      : "/Applications/Stream Deck.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app/Contents/MacOS/QtWebEngineProcess",
-      "remote-domains" : ["elgato.com"]
+      "remote-domains" : ["elgato.com","audioblocks.com"]
     }
   ]
 }
