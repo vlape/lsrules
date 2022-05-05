@@ -167,6 +167,14 @@
       "protocol" : "tcp",
       "process"  : "/Library/Application Support/iStat Menus 6/iStatMenusAgent.app/Contents/MacOS/iStatMenusAgent",
       "remote-domains" : ["istatmenus.app"]
+    },
+    {
+      "notes"  : "Dash",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Users/vlape/Applications/Setapp/Dash.app/Contents/MacOS/Dash",
+      "remote-domains" : ["kapeli.com"]
     }
   ]
 }
