@@ -70,12 +70,28 @@
       "remote-domains" : ["cleanmymac.com","iterm2.com","keka.io","protonvpn.com","handbrake.fr"]
     },
     {
+      "notes"  : "CleanMyMac X Updater",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Users/vlape/Library/Application Support/CleanMyMac Setapp/CleanMyMac X Updater.app/Contents/MacOS/CleanMyMac X Updater",
+      "remote-domains" : ["cleanmymac.com"]
+    },
+    {
       "notes"  : "CleanMyMac X Menu",
       "action" : "allow",
       "ports"  : "443",
       "protocol" : "tcp",
       "process"  : "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/MacOS/CleanMyMac Menu",
       "remote-domains" : ["setapp.com"]
+    },
+    {
+      "notes"  : "CleanMyMac X HealthMonitor",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor",
+      "remote-domains" : ["cleanmymac.com"]
     },
     {
       "notes"  : "Stream Deck",
