@@ -93,6 +93,14 @@
       "process"  : "/Applications/Stream Deck.app/Contents/MacOS/Stream Deck",
       "via"      : "/Applications/Stream Deck.app/Contents/Frameworks/QtWebEngineCore.framework/Versions/5/Helpers/QtWebEngineProcess.app/Contents/MacOS/QtWebEngineProcess",
       "remote-domains" : ["elgato.com","audioblocks.com"]
+    },
+    {
+      "notes"  : "Alfred",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
+      "remote-domains" : ["alfredapp.com"]
     }
   ]
 }
