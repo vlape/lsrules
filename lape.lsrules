@@ -25,6 +25,7 @@
       "action" : "allow",
       "ports"  : "443",
       "protocol" : "tcp",
+      "process"  : "/Applications/1Password.app/Contents/MacOS/1Password",
       "remote-domains" : ["1password.com", "1passwordusercontent.com", "agilebits.com"]
     },
     {
