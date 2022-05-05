@@ -36,6 +36,14 @@
       "action" : "allow",
       "process"  : "/Applications/Firefox.app/Contents/MacOS/firefox",
       "remote" : "any"
+    },
+    {
+      "notes"  : "SetApp",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Applications/Setapp.app/Contents/MacOS/Setapp",
+      "remote-domains" : ["setapp.com"]
     }
   ]
 }
