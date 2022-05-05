@@ -51,7 +51,7 @@
       "ports"  : "443",
       "protocol" : "tcp",
       "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/Setapp.app/Contents/MacOS/SetappAgent",
-      "remote-domains" : ["setapp.com","devmate.com"]
+      "remote-domains" : ["setapp.com","devmate.com","macpaw.com","s3-us-west-2.amazonaws.com"]
     },
     {
       "notes"  : "SetApp Launcher",
