@@ -230,6 +230,12 @@
       "remote-domains": [
         "kapeli.com"
       ]
+    },
+    {
+      "notes": "Downie",
+      "action": "allow",
+      "process": "/Users/vlape/Applications/Setapp/Downie.app/Contents/MacOS/Downie",
+      "remote": "any"
     }
   ]
 }
