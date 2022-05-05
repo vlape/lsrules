@@ -150,6 +150,14 @@
       "protocol" : "tcp",
       "process"  : "Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
       "remote-domains" : ["microsoft.com","azurewebsites.net","live.com"]
+    },
+    {
+      "notes"  : "iStatsMenusAgent",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Library/Application Support/iStat Menus 6/iStatMenusAgent.app/Contents/MacOS/iStatMenusAgent",
+      "remote-domains" : ["istatmenus.app"]
     }
   ]
 }
