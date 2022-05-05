@@ -101,6 +101,15 @@
       "protocol" : "tcp",
       "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
       "remote-domains" : ["alfredapp.com"]
+    },
+    {
+      "notes"  : "Alfred networkQuality",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
+      "via"      : "/usr/bin/networkQuality",
+      "remote-domains" : ["applimg.com","cdn-apple.com"]
     }
   ]
 }
