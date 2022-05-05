@@ -46,11 +46,19 @@
       "remote-domains" : ["setapp.com"]
     },
     {
+      "notes"  : "SetApp Agent",
+      "action" : "allow",
+      "ports"  : "443",
+      "protocol" : "tcp",
+      "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/Setapp.app/Contents/MacOS/SetappAgent",
+      "remote-domains" : ["setapp.com"]
+    },
+    {
       "notes"  : "SetApp Launcher",
       "action" : "allow",
       "ports"  : "443",
       "protocol" : "tcp",
-      "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/SetappLauncher.app",
+      "process"  : "/Users/vlape/Library/Application Support/Setapp/LaunchAgents/SetappLauncher.app/Contents/MacOS/SetappLauncher",
       "remote-domains" : ["setapp.com"]
     }
   ]
