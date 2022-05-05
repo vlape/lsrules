@@ -1,6 +1,6 @@
 {
-  "description" : "My personal Little Snitch rules",
-  "name" : "My Rules",
+  "description" : "Little Snitch rules",
+  "name" : "LS Rules",
   "rules" : [
     {
       "notes"  : "Default Deny System",
