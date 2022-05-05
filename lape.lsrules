@@ -3,11 +3,6 @@
   "name": "LS Rules",
   "rules": [
     {
-      "notes": "Default Deny System",
-      "action": "deny",
-      "remote": "any"
-    },
-    {
       "notes": "Default Deny",
       "action": "deny",
       "remote": "any"
