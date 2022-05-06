@@ -259,14 +259,6 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
-      "remote-domains": ["protonvpn.ch","protonvpn.com"]
-    },
-    {
-      "notes": "ProtonVPN-443",
-      "action": "allow",
-      "ports": "443",
-      "protocol": "tcp",
-      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
       "remote-domains": ["protonvpn.ch","protonvpn.com","dns.google.com"]
     },
     {
