@@ -317,8 +317,6 @@
     {
       "notes": "ProtonVPN-Wireguard",
       "action": "allow",
-      "ports": "any",
-      "protocol": "any",
       "process": "/Library/SystemExtensions/2A5378B2-7E58-4032-A6B7-E7C2CF166F9B/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "remote": "any"
     }
