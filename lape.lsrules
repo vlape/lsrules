@@ -212,6 +212,16 @@
       ]
     },
     {
+      "notes": "iStat Menus Status",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Library/Application Support/iStat Menus 6/iStat Menus Status.app/Contents/MacOS/iStat Menus Status",
+      "remote-domains": [
+        "istatmenus.app"
+      ]
+    },
+    {
       "notes": "iStatsMenusAgent",
       "action": "allow",
       "ports": "443",
