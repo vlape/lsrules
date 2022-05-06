@@ -332,6 +332,14 @@
       "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
       "via": "/usr/bin/curl",
       "remote": "any"
+    },
+    {
+      "notes": "Keyboard Marstro - WL Script",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine",
+      "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
+      "remote-domains": ["api.weatherlink.com"]
     }
   ]
 }
