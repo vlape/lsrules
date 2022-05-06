@@ -272,7 +272,9 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/Applications/BBEdit.app/Contents/MacOS/BBEdit",
-      "remote-domains": ["barebones.com"]
+      "remote-domains": [
+        "barebones.com"
+      ]
     },
     {
       "notes": "ProtonVPN-443",
@@ -280,7 +282,11 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
-      "remote-domains": ["protonvpn.ch","protonvpn.com","dns.google.com"]
+      "remote-domains": [
+        "protonvpn.ch",
+        "protonvpn.com",
+        "dns.google.com"
+      ]
     },
     {
       "notes": "ProtonVPN-80",
@@ -288,7 +294,9 @@
       "ports": "80",
       "protocol": "tcp",
       "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
-      "remote-domains": ["protonstatus.com"]
+      "remote-domains": [
+        "protonstatus.com"
+      ]
     },
     {
       "notes": "ProtonVPN UDP",
@@ -304,7 +312,9 @@
       "ports": "5053",
       "protocol": "tcp",
       "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
-      "remote-domains": ["quad9.net"]
+      "remote-domains": [
+        "quad9.net"
+      ]
     },
     {
       "notes": "ProtonVPN-IKEv2-500",
@@ -339,7 +349,9 @@
       "ports": "443",
       "process": "/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine",
       "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
-      "remote-domains": ["api.weatherlink.com"]
+      "remote-domains": [
+        "api.weatherlink.com"
+      ]
     }
   ]
 }
