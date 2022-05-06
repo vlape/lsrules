@@ -188,6 +188,17 @@
       ]
     },
     {
+      "notes": "InteliJ git-remote-http",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
+      "via": "/Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-http",
+      "remote-domains": [
+        "github.com"
+      ]
+    },
+    {
       "notes": "Microsoft Update Assistant",
       "action": "allow",
       "ports": "443",
