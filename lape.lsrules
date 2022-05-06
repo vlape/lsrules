@@ -252,6 +252,30 @@
       "protocol": "tcp",
       "process": "/Applications/BBEdit.app/Contents/MacOS/BBEdit",
       "remote-domains": ["barebones.com"]
+    },
+    {
+      "notes": "ProtonVPN-443",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "remote-domains": ["protonvpn.ch","protonvpn.com"]
+    },
+    {
+      "notes": "ProtonVPN-443",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "remote-domains": ["protonvpn.ch","protonvpn.com","dns.google.com"]
+    },
+    {
+      "notes": "ProtonVPN-Quad9",
+      "action": "allow",
+      "ports": "5053",
+      "protocol": "tcp",
+      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "remote-domains": ["quad9.net"]
     }
   ]
 }
