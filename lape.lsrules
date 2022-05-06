@@ -244,6 +244,14 @@
       "protocol": "tcp",
       "process": "/Users/vlape/Applications/Setapp/News Explorer.app/Contents/MacOS/News Explorer Setapp",
       "remote": "any"
+    },
+    {
+      "notes": "BBEdit",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/BBEdit.app/Contents/MacOS/BBEdit",
+      "remote-domains": ["barebones.com"]
     }
   ]
 }
