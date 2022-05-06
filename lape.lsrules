@@ -272,7 +272,7 @@
     {
       "notes": "ProtonVPN-IKEv2",
       "action": "allow",
-      "ports": "500",
+      "ports": ["500","4500"],
       "protocol": "udp",
       "process": "/System/Library/Frameworks/NetworkExtension.framework/PlugIns/NEIKEv2Provider.appex/Contents/MacOS/NEIKEv2Provider",
       "remote": "any"
