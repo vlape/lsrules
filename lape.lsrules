@@ -319,6 +319,19 @@
       "action": "allow",
       "process": "/Library/SystemExtensions/2A5378B2-7E58-4032-A6B7-E7C2CF166F9B/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "remote": "any"
+    },
+    {
+      "notes": "iTerm",
+      "action": "allow",
+      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "remote": "any"
+    },
+    {
+      "notes": "iTerm-curl",
+      "action": "allow",
+      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "via": "/usr/bin/curl",
+      "remote": "any"
     }
   ]
 }
