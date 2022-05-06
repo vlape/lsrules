@@ -262,6 +262,22 @@
       "remote-domains": ["protonvpn.ch","protonvpn.com","dns.google.com"]
     },
     {
+      "notes": "ProtonVPN-80",
+      "action": "allow",
+      "ports": "80",
+      "protocol": "tcp",
+      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "remote-domains": ["protonstatus.com"]
+    },
+    {
+      "notes": "ProtonVPN UDP",
+      "action": "allow",
+      "ports": "88, 1224, 49152, 51820",
+      "protocol": "udp",
+      "process": "/Applications/ProtonVPN.app/Contents/MacOS/ProtonVPN",
+      "remote": "any"
+    },
+    {
       "notes": "ProtonVPN-Quad9",
       "action": "allow",
       "ports": "5053",
@@ -275,6 +291,14 @@
       "ports": "500,4500",
       "protocol": "udp",
       "process": "/System/Library/Frameworks/NetworkExtension.framework/PlugIns/NEIKEv2Provider.appex/Contents/MacOS/NEIKEv2Provider",
+      "remote": "any"
+    },
+    {
+      "notes": "ProtonVPN-Wireguard",
+      "action": "allow",
+      "ports": "1224",
+      "protocol": "udp",
+      "process": "/Library/SystemExtensions/2A5378B2-7E58-4032-A6B7-E7C2CF166F9B/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "remote": "any"
     }
   ]
