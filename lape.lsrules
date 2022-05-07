@@ -429,6 +429,13 @@
         "safebrowsing.googleapis.com",
         "token.safebrowsing.apple"
       ]
+    },
+    {
+      "notes": "NMAP",
+      "action": "allow",
+      "ports": "any",
+      "process": "/opt/homebrew/Cellar/nmap/7.92/bin/nmap",
+      "remote": "any"
     }
   ]
 }
