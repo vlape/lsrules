@@ -285,7 +285,8 @@
       "remote-domains": [
         "protonvpn.ch",
         "protonvpn.com",
-        "dns.google.com"
+        "dns.google.com",
+        "compute.amazonaws.com"
       ]
     },
     {
