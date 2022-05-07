@@ -419,6 +419,16 @@
         "pypi.org",
         "python.org"
       ]
+    },
+    {
+      "notes": "SafeBrowsing",
+      "action": "allow",
+      "ports": "443",
+      "process": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/Versions/A/com.apple.Safari.SafeBrowsing.Service",
+      "remote-domains": [
+        "safebrowsing.googleapis.com",
+        "token.safebrowsing.apple"
+      ]
     }
   ]
 }
