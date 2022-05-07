@@ -371,6 +371,18 @@
       "remote-domains": [
         "gpgtools.org"
       ]
+    },
+    {
+      "notes": "iVI Pro",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/iVI Pro.app/Contents/MacOS/iVI Pro",
+      "remote-domains": [
+        "southpolesoftware.com",
+        "imdb.com",
+        "themoviedb.org",
+        "thetvdb.com"
+      ]
     }
   ]
 }
