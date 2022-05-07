@@ -257,12 +257,10 @@
     {
       "notes": "Dash",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "protocol": "tcp",
       "process": "/Users/vlape/Applications/Setapp/Dash.app/Contents/MacOS/Dash",
-      "remote-domains": [
-        "kapeli.com"
-      ]
+      "remote": "any"
     },
     {
       "notes": "Downie",
