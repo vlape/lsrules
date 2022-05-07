@@ -434,7 +434,8 @@
       "notes": "NMAP",
       "action": "allow",
       "ports": "any",
-      "process": "/opt/homebrew/Cellar/nmap/7.92/bin/nmap",
+      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "via": "/opt/homebrew/Cellar/nmap/7.92/bin/nmap",
       "remote": "any"
     }
   ]
