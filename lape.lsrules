@@ -184,7 +184,9 @@
       "remote-domains": [
         "jetbrains.com",
         "schemastore.org",
-        "dl.google.com"
+        "dl.google.com",
+        "github.com",
+        "python.org"
       ]
     },
     {
