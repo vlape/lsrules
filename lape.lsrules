@@ -383,6 +383,18 @@
         "themoviedb.org",
         "thetvdb.com"
       ]
+    },
+    {
+      "notes": "iVI Pro",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/iVI 5.app/Contents/MacOS/iVI 5",
+      "remote-domains": [
+        "southpolesoftware.com",
+        "imdb.com",
+        "themoviedb.org",
+        "thetvdb.com"
+      ]
     }
   ]
 }
