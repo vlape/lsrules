@@ -375,7 +375,7 @@
     {
       "notes": "iVI Pro",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "process": "/Applications/iVI Pro.app/Contents/MacOS/iVI Pro",
       "remote-domains": [
         "southpolesoftware.com",
@@ -389,7 +389,7 @@
     {
       "notes": "iVI Pro 5",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "process": "/Applications/iVI 5.app/Contents/MacOS/iVI 5",
       "remote-domains": [
         "southpolesoftware.com",
