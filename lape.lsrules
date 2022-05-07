@@ -362,6 +362,15 @@
       "remote-domains": [
         "sw-update.obdev.at"
       ]
+    },
+    {
+      "notes": "GPG Suite Updater",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Library/Application Support/GPGTools/GPGSuite_Updater.app/Contents/MacOS/GPGSuite_Updater",
+      "remote-domains": [
+        "gpgtools.org"
+      ]
     }
   ]
 }
