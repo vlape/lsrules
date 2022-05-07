@@ -402,6 +402,16 @@
         "tmdb.org",
         "plex.tv"
       ]
+    },
+    {
+      "notes": "Python 3",
+      "action": "allow",
+      "ports": "80, 443",
+      "process": "/opt/homebrew/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/Resources/Python.app",
+      "remote-domains": [
+        "pypi.org",
+        "python.org"
+      ]
     }
   ]
 }
