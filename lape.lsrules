@@ -178,38 +178,28 @@
     {
       "notes": "InteliJ",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "protocol": "tcp",
       "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
-      "remote-domains": [
-        "jetbrains.com",
-        "schemastore.org",
-        "dl.google.com",
-        "github.com",
-        "python.org"
-      ]
+      "remote": "any"
     },
     {
       "notes": "InteliJ git-remote-http",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "protocol": "tcp",
       "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
       "via": "/Library/Developer/CommandLineTools/usr/libexec/git-core/git-remote-http",
-      "remote-domains": [
-        "github.com"
-      ]
+      "remote": "any"
     },
     {
       "notes": "InteliJ pypi",
       "action": "allow",
-      "ports": "443",
+      "ports": "80, 443",
       "protocol": "tcp",
       "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
       "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
-      "remote-domains": [
-        "pypi.org"
-      ]
+      "remote": "any"
     },
     {
       "notes": "Microsoft Update Assistant",
