@@ -199,6 +199,17 @@
       ]
     },
     {
+      "notes": "InteliJ pypi",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
+      "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
+      "remote-domains": [
+        "pypi.org"
+      ]
+    },
+    {
       "notes": "Microsoft Update Assistant",
       "action": "allow",
       "ports": "443",
