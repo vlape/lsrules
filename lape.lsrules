@@ -183,7 +183,7 @@
       "process": "/Applications/IntelliJ IDEA.app/Contents/MacOS/idea",
       "remote-domains": [
         "jetbrains.com",
-        "schemastore.com",
+        "schemastore.org",
         "dl.google.com"
       ]
     },
