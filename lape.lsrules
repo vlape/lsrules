@@ -436,6 +436,14 @@
       "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
       "via": "/opt/homebrew/Cellar/nmap/7.92/bin/nmap",
       "remote": "any"
+    },
+    {
+      "notes": "Alfred",
+      "action": "allow",
+      "ports": "443",
+      "process": "Applications/Alfred 4.app/Contents/MacOS/Alfred",
+      "remote-domains": ["alfredapp.com"]
     }
+
   ]
 }
