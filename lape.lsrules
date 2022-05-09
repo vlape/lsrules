@@ -368,6 +368,15 @@
       "process": "/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine",
       "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
       "remote-domains": [
+        "keyboardmaestro.com"
+      ]
+    },
+    {
+      "notes": "Keyboard Marstro",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Keyboard Maestro.app/Contents/MacOS/Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine",
+      "remote-domains": [
         "api.weatherlink.com"
       ]
     },
