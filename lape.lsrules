@@ -355,6 +355,13 @@
       "remote": "any"
     },
     {
+      "notes": "iTerm-telnet",
+      "action": "allow",
+      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "via": "/opt/homebrew/Cellar/telnet/64/bin/telnet",
+      "remote": "any"
+    },
+    {
       "notes": "Keyboard Marstro - WL Script",
       "action": "allow",
       "ports": "443",
