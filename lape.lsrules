@@ -448,7 +448,7 @@
       "notes": "Alfred",
       "action": "allow",
       "ports": "443",
-      "process": "Applications/Alfred 4.app/Contents/MacOS/Alfred",
+      "process": "/Applications/Alfred 4.app/Contents/MacOS/Alfred",
       "remote-domains": ["alfredapp.com"]
     }
 
