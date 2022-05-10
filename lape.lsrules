@@ -98,7 +98,8 @@
       "protocol": "tcp",
       "process": "/Users/vlape/Library/Application Support/CleanMyMac Setapp/CleanMyMac X Updater.app/Contents/MacOS/CleanMyMac X Updater",
       "remote-domains": [
-        "cleanmymac.com"
+        "cleanmymac.com",
+        "macpaw.com"
       ]
     },
     {
@@ -108,7 +109,9 @@
       "protocol": "tcp",
       "process": "/Users/vlape/Applications/Setapp/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac Menu.app/Contents/MacOS/CleanMyMac Menu",
       "remote-domains": [
-        "setapp.com"
+        "setapp.com",
+        "cleanmymac.com",
+        "macpaw.com"
       ]
     },
     {
