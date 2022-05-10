@@ -463,6 +463,20 @@
       "ports": "443",
       "process": "/Applications/Alfred 4.app/Contents/MacOS/Alfred",
       "remote-domains": ["alfredapp.com"]
+    },
+    {
+      "notes": "Fantastical",
+      "action": "allow",
+      "ports": "443",
+      "process": "/Applications/Fantastical.app/Contents/MacOS/Fantastical",
+      "remote-domains": ["flexibits.com", "icloud.com"]
+    },
+    {
+      "notes": "Fantastical Helper",
+      "action": "allow",
+      "ports": "443",
+      "process": "//Applications/Fantastical.app/Contents/Library/LoginItems/85C27NK92C.com.flexibits.fantastical2.mac.helper.app/Contents/MacOS/85C27NK92C.com.flexibits.fantastical2.mac.helper",
+      "remote-domains": ["flexibits.com", "icloud.com"]
     }
 
   ]
