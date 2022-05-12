@@ -488,7 +488,8 @@
     {
       "notes": "Apple Mail",
       "action": "allow",
-      "ports": "143, 585, 993",
+      "ports": "25, 143, 443, 465, 585, 993",
+      "protocol": "any",
       "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
       "remote-domains": ["any"]
     },
