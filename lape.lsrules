@@ -490,7 +490,14 @@
       "action": "allow",
       "ports": "143, 585, 993",
       "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
-      "remote-domains": ["me.com", "icloud.com"]
+      "remote-domains": ["any"]
+    },
+    {
+      "notes": "identityservicesd",
+      "action": "allow",
+      "ports": "3486, 3491",
+      "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "remote-domains": ["any"]
     }
   ]
 }
