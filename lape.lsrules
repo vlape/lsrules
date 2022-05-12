@@ -484,6 +484,13 @@
       "ports": "443",
       "process": "/Applications/Sugarmate Glance.app/Contents/MacOS/Sugarmate Glance",
       "remote-domains": ["sugarmate.io"]
+    },
+    {
+      "notes": "Apple Mail",
+      "action": "allow",
+      "ports": "143, 585, 993",
+      "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
+      "remote-domains": ["me.com", "icloud.com"]
     }
   ]
 }
