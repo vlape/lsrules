@@ -491,7 +491,7 @@
       "ports": "25, 143, 443, 465, 585, 993",
       "protocol": "any",
       "process": "/System/Applications/Mail.app/Contents/MacOS/Mail",
-      "remote-domains": ["any"]
+      "remote": "any"
     },
     {
       "notes": "identityservicesd",
@@ -499,7 +499,7 @@
       "ports": "3486, 3491",
       "protocol": "any",
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
-      "remote-domains": ["any"]
+      "remote": "any"
     }
   ]
 }
