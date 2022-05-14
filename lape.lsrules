@@ -507,7 +507,7 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
-      "remote-domains": ["icloud.com","googleapis.com"]
+      "remote-domains": ["icloud.com","gcs-us-00003.content-storage-upload.googleapis.com"]
     }
   ]
 }
