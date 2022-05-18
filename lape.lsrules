@@ -348,13 +348,13 @@
     {
       "notes": "iTerm",
       "action": "allow",
-      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "process": "/Applications/iTerm.app/Contents/MacOS/iTerm2",
       "remote": "any"
     },
     {
       "notes": "iTerm-curl",
       "action": "allow",
-      "process": "/Applications/iTerm 2.app/Contents/MacOS/iTerm2",
+      "process": "/Applications/iTerm.app/Contents/MacOS/iTerm2",
       "via": "/usr/bin/curl",
       "remote": "any"
     },
