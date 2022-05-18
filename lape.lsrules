@@ -417,20 +417,6 @@
       ]
     },
     {
-      "notes": "iVI Pro 5",
-      "action": "allow",
-      "ports": "80, 443",
-      "process": "/Applications/iVI 5.app/Contents/MacOS/iVI 5",
-      "remote-domains": [
-        "southpolesoftware.com",
-        "imdb.com",
-        "themoviedb.org",
-        "thetvdb.com",
-        "tmdb.org",
-        "plex.tv"
-      ]
-    },
-    {
       "notes": "Python 3",
       "action": "allow",
       "ports": "80, 443",
