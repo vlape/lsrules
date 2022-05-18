@@ -173,8 +173,8 @@
       "action": "allow",
       "ports": "443",
       "protocol": "tcp",
-      "process": "/Applications/Alfred 4.app/Contents/Preferences/Alfred Preferences.app/Contents/MacOS/Alfred Preferences",
-      "via": "/Users/vlape/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.47662ED6-385B-4AD1-97A5-E5EEE8827A33/raindrop_alfred",
+      "process": "/Applications/Alfred 4.app/Contents/MacOS/Alfred",
+      "via": "/Users/vlape/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/user.workflow.62D3A19A-1643-40AA-9E8D-B6DB6297FCD4/raindrop_alfred",
       "remote-domains": [
         "raindrop.io"
       ]
