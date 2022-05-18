@@ -342,7 +342,7 @@
     {
       "notes": "ProtonVPN-Wireguard",
       "action": "allow",
-      "process": "/Library/SystemExtensions/2A5378B2-7E58-4032-A6B7-E7C2CF166F9B/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
+      "process": "/Library/SystemExtensions/1A5D33C7-0BE7-41A7-A825-A6FEA56F5083/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
       "remote": "any"
     },
     {
