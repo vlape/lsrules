@@ -488,6 +488,14 @@
       "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
       "via": "/Applications/NoMachine.app/Contents/Frameworks/bin/nxclient.app/Contents/MacOS/nxclient"
       "remote": "any"
+    },
+    {
+      "notes": "GPG Suite",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/GPG Keychain.app/Contents/MacOS/GPG Keychain",
+      "remote-domains": ["keys.openpgp.org"]
     }
   ]
 }
