@@ -470,6 +470,24 @@
       "protocol": "tcp",
       "process": "/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent",
       "remote-domains": ["icloud.com","gcs-us-00003.content-storage-upload.googleapis.com"]
+    },
+    {
+      "notes": "NoMachine NXPlayer",
+      "action": "allow",
+      "ports": "4000, 4011",
+      "protocol": "any",
+      "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
+      "via": "/Applications/NoMachine.app/Contents/MacOS/nxplayer"
+      "remote": "any"
+    },
+    {
+      "notes": "NoMachine Player",
+      "action": "allow",
+      "ports": "4000",
+      "protocol": "tcp",
+      "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
+      "via": "/Applications/NoMachine.app/Contents/Frameworks/bin/nxclient.app/Contents/MacOS/nxclient"
+      "remote": "any"
     }
   ]
 }
