@@ -48,7 +48,7 @@
       "action": "allow",
       "ports": "443",
       "protocol": "tcp",
-      "process": "/Applications/Setapp.app/Contents/MacOS/Setapp",
+      "process": "/Users/vlape/Applications/Setapp.app/Contents/MacOS/Setapp",
       "remote-domains": [
         "setapp.com"
       ]
