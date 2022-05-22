@@ -424,28 +424,38 @@
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Alfred 4.app/Contents/MacOS/Alfred",
-      "remote-domains": ["alfredapp.com"]
+      "remote-domains": [
+        "alfredapp.com"
+      ]
     },
     {
       "notes": "Fantastical",
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Fantastical.app/Contents/MacOS/Fantastical",
-      "remote-domains": ["flexibits.com", "icloud.com"]
+      "remote-domains": [
+        "flexibits.com",
+        "icloud.com"
+      ]
     },
     {
       "notes": "Fantastical Helper",
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Fantastical.app/Contents/Library/LoginItems/85C27NK92C.com.flexibits.fantastical2.mac.helper.app/Contents/MacOS/85C27NK92C.com.flexibits.fantastical2.mac.helper",
-      "remote-domains": ["flexibits.com", "icloud.com"]
+      "remote-domains": [
+        "flexibits.com",
+        "icloud.com"
+      ]
     },
     {
       "notes": "Sugarmate",
       "action": "allow",
       "ports": "443",
       "process": "/Applications/Sugarmate Glance.app/Contents/MacOS/Sugarmate Glance",
-      "remote-domains": ["sugarmate.io"]
+      "remote-domains": [
+        "sugarmate.io"
+      ]
     },
     {
       "notes": "Apple Mail",
@@ -469,7 +479,10 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/System/Library/PrivateFrameworks/IMTransferServices.framework/IMTransferAgent.app/Contents/MacOS/IMTransferAgent",
-      "remote-domains": ["icloud.com","gcs-us-00003.content-storage-upload.googleapis.com"]
+      "remote-domains": [
+        "icloud.com",
+        "gcs-us-00003.content-storage-upload.googleapis.com"
+      ]
     },
     {
       "notes": "NoMachine NXPlayer",
@@ -477,7 +490,7 @@
       "ports": "4000, 4011",
       "protocol": "any",
       "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
-      "via": "/Applications/NoMachine.app/Contents/MacOS/nxplayer"
+      "via": "/Applications/NoMachine.app/Contents/MacOS/nxplayer",
       "remote": "any"
     },
     {
@@ -486,7 +499,7 @@
       "ports": "4000",
       "protocol": "tcp",
       "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
-      "via": "/Applications/NoMachine.app/Contents/Frameworks/bin/nxclient.app/Contents/MacOS/nxclient"
+      "via": "/Applications/NoMachine.app/Contents/Frameworks/bin/nxclient.app/Contents/MacOS/nxclient",
       "remote": "any"
     },
     {
@@ -495,7 +508,9 @@
       "ports": "443",
       "protocol": "tcp",
       "process": "/Applications/GPG Keychain.app/Contents/MacOS/GPG Keychain",
-      "remote-domains": ["keys.openpgp.org"]
+      "remote-domains": [
+        "keys.openpgp.org"
+      ]
     }
   ]
 }
