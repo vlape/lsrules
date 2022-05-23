@@ -517,7 +517,7 @@
       "action": "allow",
       "ports": "443",
       "protocol": "any",
-      "process": "/Applications/Cardhop.app/Contents/MacOS/Cardhop ",
+      "process": "/Applications/Cardhop.app/Contents/MacOS/Cardhop",
       "remote-domains": [
         "flexibits.com","me.com","icloud.com"
       ]
