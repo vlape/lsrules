@@ -487,7 +487,7 @@
     {
       "notes": "NoMachine NXPlayer",
       "action": "allow",
-      "ports": "4000, 4011",
+      "ports": "4000, 4011, 22",
       "protocol": "any",
       "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
       "via": "/Applications/NoMachine.app/Contents/MacOS/nxplayer",
@@ -496,7 +496,7 @@
     {
       "notes": "NoMachine Player",
       "action": "allow",
-      "ports": "4000",
+      "ports": "4000, 22",
       "protocol": "tcp",
       "process": "/Applications/NoMachine.app/Contents/MacOS/nxdock",
       "via": "/Applications/NoMachine.app/Contents/Frameworks/bin/nxclient.app/Contents/MacOS/nxclient",
