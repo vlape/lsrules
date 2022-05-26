@@ -555,6 +555,14 @@
       "protocol": "tcp",
       "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
       "remote-domains": ["live.com","microsoft.com","azureedge.net","msauth.net","office.com","azurewebsites.net"]
+    },
+    {
+      "notes": "PowerPoint",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Microsoft PowerPoint.app/Contents/MacOS/Microsoft PowerPoint",
+      "remote-domains": ["live.com","microsoft.com","azureedge.net","msauth.net","office.com","azurewebsites.net"]
     }
   ]
 }
