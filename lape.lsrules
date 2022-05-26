@@ -521,6 +521,16 @@
       "remote-domains": [
         "flexibits.com","me.com","icloud.com"
       ]
+    },
+    {
+      "notes": "Amazon WorkSpaces",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/WorkSpaces.app/Contents/MacOS/Workspaces",
+      "remote-domains": [
+        "amazonaws.com","cloudfront.net","amazonworkspaces.com"
+      ]
     }
   ]
 }
