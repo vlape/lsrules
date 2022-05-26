@@ -547,6 +547,14 @@
       "protocol": "tcp",
       "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
       "remote-domains": ["live.com","microsoft.com","azureedge.net","msauth.net","office.com","azurewebsites.net"]
+    },
+    {
+      "notes": "OneNote",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Microsoft OneNote.app/Contents/MacOS/Microsoft OneNote",
+      "remote-domains": ["live.com","microsoft.com","azureedge.net","msauth.net","office.com","azurewebsites.net"]
     }
   ]
 }
