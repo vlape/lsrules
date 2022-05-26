@@ -538,7 +538,7 @@
       "ports": "443, 4172, 4195",
       "protocol": "any",
       "process": "/Applications/WorkSpaces.app/Contents/MacOS/Workspaces",
-      "remote": ["3.208.130.85","3.217.230.205","3.235.118.164","3.235.117.117"]
+      "remote": "3.208.130.85,3.217.230.205,3.235.118.164,3.235.117.117"
     }
   ]
 }
