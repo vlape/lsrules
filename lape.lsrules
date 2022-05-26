@@ -523,13 +523,13 @@
       ]
     },
     {
-      "notes": "Amazon WorkSpaces",
+      "notes": "Amazon WorkSpaces TCP",
       "action": "allow",
-      "ports": "443",
-      "protocol": "tcp",
+      "ports": "443, 4172, 4195",
+      "protocol": "any",
       "process": "/Applications/WorkSpaces.app/Contents/MacOS/Workspaces",
       "remote-domains": [
-        "amazonaws.com","cloudfront.net","amazonworkspaces.com"
+        "amazonaws.com","cloudfront.net","amazonworkspaces.com","awsapps.com"
       ]
     }
   ]
