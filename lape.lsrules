@@ -539,6 +539,14 @@
       "protocol": "any",
       "process": "/Applications/WorkSpaces.app/Contents/MacOS/Workspaces",
       "remote": "3.208.130.85,3.217.230.205,3.235.118.164,3.235.117.117"
+    },
+    {
+      "notes": "Excel",
+      "action": "allow",
+      "ports": "443",
+      "protocol": "tcp",
+      "process": "/Applications/Microsoft Excel.app/Contents/MacOS/Microsoft Excel",
+      "remote-domains": ["live.com","microsoft.com"]
     }
   ]
 }
