@@ -213,19 +213,6 @@
       "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
       "remote": "api.weatherlink.com"
     },
-
-    {
-      "notes": "Microsoft Updater",
-      "action": "allow",
-      "ports": "443",
-      "protocol": "tcp",
-      "process": "/Applications/OneDrive.app/Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater",
-      "remote-domains": [
-        "microsoft.com",
-        "azurewebsites.net",
-        "live.com"
-      ]
-    },
     {
       "notes": "iStat Menus Status",
       "action": "allow",
