@@ -350,12 +350,6 @@
       "remote": "any"
     },
     {
-      "notes": "ProtonVPN-Wireguard",
-      "action": "allow",
-      "process": "/Library/SystemExtensions/1A5D33C7-0BE7-41A7-A825-A6FEA56F5083/ch.protonvpn.mac.WireGuard-Extension.systemextension/Contents/MacOS/ch.protonvpn.mac.WireGuard-Extension",
-      "remote": "any"
-    },
-    {
       "notes": "iTerm",
       "action": "allow",
       "process": "/Applications/iTerm.app/Contents/MacOS/iTerm2",
