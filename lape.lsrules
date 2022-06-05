@@ -213,18 +213,7 @@
       "via": "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Resources/Python.app/Contents/MacOS/Python",
       "remote": "api.weatherlink.com"
     },
-    {
-      "notes": "Microsoft Update Assistant",
-      "action": "allow",
-      "ports": "443",
-      "protocol": "tcp",
-      "process": "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app/Contents/MacOS/Microsoft Update Assistant",
-      "remote-domains": [
-        "microsoft.com",
-        "azurewebsites.net",
-        "live.com"
-      ]
-    },
+
     {
       "notes": "Microsoft Updater",
       "action": "allow",
