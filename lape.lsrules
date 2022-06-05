@@ -18,7 +18,7 @@
     {
       "notes": "Apple IPs",
       "action": "allow",
-      "remote-addresses": "17.*.*.*"
+      "remote-addresses": "17.*.*.*,192.12.74.*,192.42.249.*"
     },
     {
       "notes": "T-Mobile IPs",
