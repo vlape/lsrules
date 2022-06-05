@@ -102,17 +102,6 @@
       ]
     },
     {
-      "notes": "CleanMyMac X Updater",
-      "action": "allow",
-      "ports": "443",
-      "protocol": "tcp",
-      "process": "/Users/vlape/Library/Application Support/CleanMyMac Setapp/CleanMyMac X Updater.app/Contents/MacOS/CleanMyMac X Updater",
-      "remote-domains": [
-        "cleanmymac.com",
-        "macpaw.com"
-      ]
-    },
-    {
       "notes": "CleanMyMac X Menu",
       "action": "allow",
       "ports": "443",
