@@ -18,6 +18,7 @@
     {
       "notes": "Apple IPs",
       "action": "ALLOW",
+      "process": "any",
       "remote": "17.0.0.0/8"
     },
     {
