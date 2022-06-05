@@ -17,9 +17,8 @@
     },
     {
       "notes": "Apple IPs",
-      "action": "ALLOW",
-      "process": "any",
-      "remote": "17.0.0.0/8"
+      "action": "allow",
+      "remote-addresses": "17.*.*.*"
     },
     {
       "notes": "Github",
