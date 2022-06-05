@@ -21,6 +21,11 @@
       "remote-addresses": "17.*.*.*"
     },
     {
+      "notes": "T-Mobile IPs",
+      "action": "allow",
+      "remote-addresses": "172.32.*.*"
+    },
+    {
       "notes": "Github",
       "action": "allow",
       "process": "any",
