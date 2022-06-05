@@ -382,7 +382,8 @@
       "process": "/Applications/Fantastical.app/Contents/MacOS/Fantastical",
       "remote-domains": [
         "flexibits.com",
-        "icloud.com"
+        "icloud.com",
+        "todoist.com"
       ]
     },
     {
@@ -392,7 +393,8 @@
       "process": "/Applications/Fantastical.app/Contents/Library/LoginItems/85C27NK92C.com.flexibits.fantastical2.mac.helper.app/Contents/MacOS/85C27NK92C.com.flexibits.fantastical2.mac.helper",
       "remote-domains": [
         "flexibits.com",
-        "icloud.com"
+        "icloud.com",
+        "todoist.com"
       ]
     },
     {
